@@ -8,11 +8,11 @@
 
 <script lang="ts">
 import { Vue, Component } from 'vue-property-decorator';
-import type { ExampleType } from '@nodecg-vue-ts-template/types';
-import type { ExampleReplicant } from '@nodecg-vue-ts-template/types/schemas';
-import type { Configschema } from '@nodecg-vue-ts-template/types/schemas/configschema';
+import type { ExampleType } from '@nodecg-aitum/types';
+import type { ExampleReplicant } from '@nodecg-aitum/types/schemas';
+import type { Configschema } from '@nodecg-aitum/types/schemas/configschema';
 import { Getter } from 'vuex-class';
-// import { replicantNS } from '@nodecg-vue-ts-template/browser_shared/replicant_store';
+// import { replicantNS } from '@nodecg-aitum/browser_shared/replicant_store';
 import { storeModule } from './store';
 
 @Component

@@ -1,5 +1,5 @@
 {
-  "name": "nodecg-vue-ts-template",
+  "name": "nodecg-aitum",
   "version": "1.0.0",
   "description": "Template for NodeCG bundles that use Vue.js and TypeScript.",
   "homepage": "https://github.com/zoton2/nodecg-vue-ts-template#readme",
@@ -27,6 +27,7 @@
     "watch:extension": "tsc -b tsconfig.extension.json -w"
   },
   "dependencies": {
+    "ky": "^0.30.0",
     "module-alias": "^2.2.2"
   },
   "devDependencies": {
@@ -86,7 +87,15 @@
       {
         "name": "example",
         "title": "Example",
-        "file": "example.html"
+        "file": "example.html",
+        "workspace": "Aitum"
+      },
+      {
+        "name": "rules",
+        "title": "Rules",
+        "file": "rules.html",
+        "workspace": "Aitum",
+        "width": 2
       }
     ],
     "graphics": [
